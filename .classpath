@@ -35,5 +35,15 @@
 	<classpathentry kind="lib" path="C:/Selenium/selenium-java-3.4.0/lib/xalan-2.7.2.jar"/>
 	<classpathentry kind="lib" path="C:/Selenium/selenium-java-3.4.0/lib/xercesImpl-2.11.0.jar"/>
 	<classpathentry kind="lib" path="C:/Selenium/selenium-java-3.4.0/lib/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Selenium/testng/jcommander-1.69.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/testng/testng-6.9.6-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/testng/testng-6.11.jar" sourcepath="C:/Selenium/testng/testng-6.9.6-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/libs/apache-log4j-2.8.2-bin/log4j-api-2.8.2.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/libs/apache-log4j-2.8.2-bin/log4j-core-2.8.2.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/extentreports/extentreports-2.41.2.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/extentreports/jsoup-1.10.3.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/extentreports/sqlite-jdbc-3.20.0.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/extentreports/freemarker-2.3.26-incubating.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
