@@ -1,55 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Parallel Login TestSuite" duration-ms="48985" started-at="2017-08-08T01:48:57Z" finished-at="2017-08-08T01:49:46Z">
+  <suite name="Default suite" duration-ms="20549" started-at="2017-08-14T16:35:28Z" finished-at="2017-08-14T16:35:48Z">
     <groups>
     </groups>
-    <test name="Chrome Test" duration-ms="27926" started-at="2017-08-08T01:48:57Z" finished-at="2017-08-08T01:49:25Z">
-      <class name="testng_selenium_logintest.TestNG_SeleniumTestLogin">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:testng_selenium_logintest.TestNG_SeleniumTestLogin@13deb50e]" name="setUp" is-config="true" duration-ms="14071" started-at="2017-08-07T21:48:57Z" finished-at="2017-08-07T21:49:11Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="20549" started-at="2017-08-14T16:35:28Z" finished-at="2017-08-14T16:35:48Z">
+      <class name="basicWeb.HandleAuthenticationAutoIT">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:basicWeb.HandleAuthenticationAutoIT@53b32d7]" name="beforeClass" is-config="true" duration-ms="15370" started-at="2017-08-14T12:35:28Z" finished-at="2017-08-14T12:35:43Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testLogin()[pri:0, instance:testng_selenium_logintest.TestNG_SeleniumTestLogin@13deb50e]" name="testLogin" duration-ms="9885" started-at="2017-08-07T21:49:11Z" finished-at="2017-08-07T21:49:21Z">
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="HandleAuthentication()[pri:0, instance:basicWeb.HandleAuthenticationAutoIT@53b32d7]" name="HandleAuthentication" duration-ms="576" started-at="2017-08-14T12:35:43Z" finished-at="2017-08-14T12:35:44Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:testng_selenium_logintest.TestNG_SeleniumTestLogin@13deb50e]" name="cleanUp" is-config="true" duration-ms="3917" started-at="2017-08-07T21:49:21Z" finished-at="2017-08-07T21:49:25Z">
+        </test-method> <!-- HandleAuthentication -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:basicWeb.HandleAuthenticationAutoIT@53b32d7]" name="afterClass" is-config="true" duration-ms="4547" started-at="2017-08-14T12:35:44Z" finished-at="2017-08-14T12:35:48Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- cleanUp -->
-      </class> <!-- testng_selenium_logintest.TestNG_SeleniumTestLogin -->
-    </test> <!-- Chrome Test -->
-    <test name="Firefox Test" duration-ms="48985" started-at="2017-08-08T01:48:57Z" finished-at="2017-08-08T01:49:46Z">
-      <class name="testng_selenium_logintest.TestNG_SeleniumTestLogin">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:testng_selenium_logintest.TestNG_SeleniumTestLogin@3bfdc050]" name="setUp" is-config="true" duration-ms="36301" started-at="2017-08-07T21:48:57Z" finished-at="2017-08-07T21:49:33Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testLogin()[pri:0, instance:testng_selenium_logintest.TestNG_SeleniumTestLogin@3bfdc050]" name="testLogin" duration-ms="9523" started-at="2017-08-07T21:49:33Z" finished-at="2017-08-07T21:49:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:testng_selenium_logintest.TestNG_SeleniumTestLogin@3bfdc050]" name="cleanUp" is-config="true" duration-ms="3135" started-at="2017-08-07T21:49:42Z" finished-at="2017-08-07T21:49:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanUp -->
-      </class> <!-- testng_selenium_logintest.TestNG_SeleniumTestLogin -->
-    </test> <!-- Firefox Test -->
-  </suite> <!-- Parallel Login TestSuite -->
+        </test-method> <!-- afterClass -->
+      </class> <!-- basicWeb.HandleAuthenticationAutoIT -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

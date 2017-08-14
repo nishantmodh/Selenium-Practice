@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Parallel Login TestSuite]" parallel="tests">
-  <test name="Firefox Test(failed)" parallel="tests">
-    <parameter name="browser" value="firefox"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="testng_selenium_logintest.TestNG_SeleniumTestLogin">
+      <class name="basicWeb.HandleAuthenticationAutoIT">
         <methods>
-          <include name="cleanUp"/>
-          <include name="testLogin"/>
-          <include name="setUp"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="HandleAuthentication"/>
         </methods>
-      </class> <!-- testng_selenium_logintest.TestNG_SeleniumTestLogin -->
+      </class> <!-- basicWeb.HandleAuthenticationAutoIT -->
     </classes>
-  </test> <!-- Firefox Test(failed) -->
-</suite> <!-- Failed suite [Parallel Login TestSuite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

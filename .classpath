@@ -45,5 +45,17 @@
 	<classpathentry kind="lib" path="C:/Selenium/extentreports/jsoup-1.10.3.jar"/>
 	<classpathentry kind="lib" path="C:/Selenium/extentreports/sqlite-jdbc-3.20.0.jar"/>
 	<classpathentry kind="lib" path="C:/Selenium/extentreports/freemarker-2.3.26-incubating.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/poi-3.17-beta1/poi-3.17-beta1.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/poi-3.17-beta1/poi-examples-3.17-beta1.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/poi-3.17-beta1/poi-excelant-3.17-beta1.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/poi-3.17-beta1/poi-ooxml-3.17-beta1.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/poi-3.17-beta1/poi-ooxml-schemas-3.17-beta1.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/poi-3.17-beta1/poi-scratchpad-3.17-beta1.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/poi-3.17-beta1/ooxml-lib/curvesapi-1.04.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/poi-3.17-beta1/ooxml-lib/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/poi-3.17-beta1/lib/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/poi-3.17-beta1/lib/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/poi-3.17-beta1/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/poi-3.17-beta1/lib/junit-4.12.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
