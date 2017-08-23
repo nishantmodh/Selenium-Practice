@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestSuite]" parallel="tests">
+  <test name="FireFox Test(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="version" value="54.0.1"/>
+    <parameter name="platform" value="Windows"/>
+    <parameter name="url" value="http://www.expedia.com"/>
+    <classes>
+      <class name="page.classes.SeleniumGrid_ParallelTestFramework">
+        <methods>
+          <include name="setup"/>
+          <include name="SearchFlights"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- page.classes.SeleniumGrid_ParallelTestFramework -->
+    </classes>
+  </test> <!-- FireFox Test(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

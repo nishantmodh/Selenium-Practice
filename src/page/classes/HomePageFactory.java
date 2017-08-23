@@ -52,6 +52,7 @@ public class HomePageFactory {
 	}
 	
 	public void setReturnDate(String rDate) {
+		returnDate.clear();
 		returnDate.sendKeys(rDate);
 	}
 	

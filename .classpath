@@ -35,6 +35,7 @@
 	<classpathentry kind="lib" path="C:/Selenium/selenium-java-3.4.0/lib/xalan-2.7.2.jar"/>
 	<classpathentry kind="lib" path="C:/Selenium/selenium-java-3.4.0/lib/xercesImpl-2.11.0.jar"/>
 	<classpathentry kind="lib" path="C:/Selenium/selenium-java-3.4.0/lib/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.43/mysql-connector-java-5.1.43-bin.jar"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="lib" path="C:/Selenium/testng/jcommander-1.69.jar"/>
 	<classpathentry kind="lib" path="C:/Selenium/testng/testng-6.9.6-sources.jar"/>

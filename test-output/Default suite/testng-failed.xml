@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="basicWeb.HandleAuthenticationAutoIT">
+      <class name="performance_test.PerformanceTestingUsingStopWatch">
         <methods>
           <include name="afterClass"/>
+          <include name="searchFlight"/>
           <include name="beforeClass"/>
-          <include name="HandleAuthentication"/>
         </methods>
-      </class> <!-- basicWeb.HandleAuthenticationAutoIT -->
+      </class> <!-- performance_test.PerformanceTestingUsingStopWatch -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
