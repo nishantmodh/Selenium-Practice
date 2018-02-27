@@ -37,7 +37,7 @@ public class AutoComplete {
 		List<WebElement> results = element.findElements(By.tagName("li"));
 		int size = results.size();
 		
-		for(int i=0;i<size;i++) {
+		for(int i=0; i<size;i++) {
 			System.out.println(results.get(i).getText());
 		}
 		
@@ -48,6 +48,7 @@ public class AutoComplete {
 				result.click();
 			}
 		}
+		Thread.sleep(3000);
 	}
 	@After
 	public void tearDown() throws Exception {

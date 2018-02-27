@@ -19,9 +19,8 @@ public class ExcelUtility {
 	 * Also add all the jars from lib, do not add the jar file of log4j
 	 * Also add all the jars from ooxml-lib
 	 */
-	
-	private static XSSFSheet ExcelWSheet;
 	private static XSSFWorkbook ExcelWBook;
+	private static XSSFSheet ExcelWSheet;
 	private static XSSFCell Cell;
 	private static XSSFRow Row;
 

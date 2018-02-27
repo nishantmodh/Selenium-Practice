@@ -25,7 +25,6 @@ public class FileUpload {
   public void beforeClass() {
 	  baseURL = "http://www.gmail.com/";
 	  driver = new ChromeDriver();
-	  
 	  driver.manage().window().maximize();
 	  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	  driver.get(baseURL);

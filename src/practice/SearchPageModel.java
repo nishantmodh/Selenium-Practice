@@ -1,4 +1,4 @@
-package page.classes;
+package practice;
 
 import java.util.concurrent.TimeUnit;
 import org.junit.After;
@@ -7,35 +7,34 @@ import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class PageObjectModel {
-	
+public class SearchPageModel {
 	private WebDriver driver;
-	private String baseURL;
-	
+	private String url;
+	SearchPage sp;
+
 	@Before
 	public void setUp() throws Exception {
 		driver = new ChromeDriver();
-		baseURL = "https://www.expedia.com/";
+		url = "https://www.expedia.com/";
+		sp = new SearchPage(driver);
 		//driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		
-	}
-
-	@Test
-	public void test() {
-		driver.get(baseURL);
-		HomePage.navigateToFlightTab(driver);
-		HomePage.fillOriginTextBox(driver, "New York");
-		HomePage.fillDestinationTextBox(driver, "Chicago");
-		HomePage.fillDepartureDateTextBox(driver, "09/04/2017");
-		HomePage.returnDateTextBox(driver).clear();
-		HomePage.fillReturnDateTextBox(driver, "09/14/2017");;
-		HomePage.clickOnSearchButton(driver);
+		driver.get(url);
 	}
 	
+	@Test
+	public void test() {
+		sp.navidateToFlights();
+		sp.fillOriginBox("New York");
+		sp.fillDestinationBox("Chicago");
+		sp.departureDate("12/04/2017");
+		sp.returnDate("12/10/2017");
+		sp.clickSearchButton();
+	}
+
 	@After
 	public void tearDown() throws Exception {
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		driver.quit();
 	}
 

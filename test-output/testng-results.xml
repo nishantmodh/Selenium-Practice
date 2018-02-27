@@ -1,25 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="48630" started-at="2017-08-23T01:05:13Z" finished-at="2017-08-23T01:06:01Z">
+  <suite name="Default suite" duration-ms="23470" started-at="2017-12-03T23:20:28Z" finished-at="2017-12-03T23:20:52Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="48630" started-at="2017-08-23T01:05:13Z" finished-at="2017-08-23T01:06:01Z">
-      <class name="basicWeb.FileUpload">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:basicWeb.FileUpload@548e7350]" name="beforeClass" is-config="true" duration-ms="11415" started-at="2017-08-22T21:05:13Z" finished-at="2017-08-22T21:05:24Z">
+    <test name="Default test" duration-ms="23470" started-at="2017-12-03T23:20:28Z" finished-at="2017-12-03T23:20:52Z">
+      <class name="practice.FailureScreenShot">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:practice.FailureScreenShot@3abbfa04]" name="beforeClass" is-config="true" duration-ms="21027" started-at="2017-12-03T18:20:28Z" finished-at="2017-12-03T18:20:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="fileUpload()[pri:0, instance:basicWeb.FileUpload@548e7350]" name="fileUpload" duration-ms="31407" started-at="2017-08-22T21:05:24Z" finished-at="2017-08-22T21:05:56Z">
+        <test-method status="FAIL" signature="AssertTest()[pri:0, instance:practice.FailureScreenShot@3abbfa04]" name="AssertTest" duration-ms="1108" started-at="2017-12-03T18:20:49Z" finished-at="2017-12-03T18:20:51Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Search] but found [Google Search]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Search] but found [Google Search]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at practice.FailureScreenShot.AssertTest(FailureScreenShot.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fileUpload -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:basicWeb.FileUpload@548e7350]" name="afterClass" is-config="true" duration-ms="5752" started-at="2017-08-22T21:05:56Z" finished-at="2017-08-22T21:06:01Z">
+        </test-method> <!-- AssertTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:practice.FailureScreenShot@3abbfa04]" name="afterMethod" is-config="true" duration-ms="1231" started-at="2017-12-03T18:20:51Z" finished-at="2017-12-03T18:20:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AssertTest status=FAILURE method=FailureScreenShot.AssertTest()[pri:0, instance:practice.FailureScreenShot@3abbfa04] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- basicWeb.FileUpload -->
+        </test-method> <!-- afterMethod -->
+      </class> <!-- practice.FailureScreenShot -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="performance_test.PerformanceTestingUsingStopWatch">
+      <class name="practice.FailureScreenShot">
         <methods>
-          <include name="afterClass"/>
-          <include name="searchFlight"/>
+          <include name="AssertTest"/>
+          <include name="afterMethod"/>
           <include name="beforeClass"/>
         </methods>
-      </class> <!-- performance_test.PerformanceTestingUsingStopWatch -->
+      </class> <!-- practice.FailureScreenShot -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

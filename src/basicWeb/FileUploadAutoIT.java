@@ -28,9 +28,9 @@ public class FileUploadAutoIT {
   
   @Test
   public void fileUploadAutoIT() throws InterruptedException, AWTException, IOException {
-	  driver.findElement(By.id("identifierId")).sendKeys("modhnishant"); // Put username/email Id here
+	  driver.findElement(By.id("identifierId")).sendKeys(""); // Put username/email Id here
 	  driver.findElement(By.id("identifierNext")).click();
-	  driver.findElement(By.xpath("//div[@class='aXBtI Wic03c']//input[@name='password']")).sendKeys("Nish1992");
+	  driver.findElement(By.xpath("//div[@class='aXBtI Wic03c']//input[@name='password']")).sendKeys("");
 	  // Enter your password
 	  driver.findElement(By.id("passwordNext")).click();
 	  Thread.sleep(5000);

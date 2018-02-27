@@ -13,7 +13,7 @@ public class TestNG_SeleniumTestLogin {
 	
 	private WebDriver driver;
 	private String baseURL;
-	LoginPage lp;
+	public LoginPage lp;
 
 	@BeforeClass
 	@Parameters({"browser"})

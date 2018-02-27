@@ -111,7 +111,7 @@ public class GenericMethods {
 		try {
 			System.out.println("Waiting for max:: "+timeout+" seconds the element to be available");
 			
-			WebDriverWait wait = new WebDriverWait(driver, 3);
+			WebDriverWait wait = new WebDriverWait(driver, timeout);
 			element = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
 			System.out.println("Element appeared on the web page");
 			
@@ -126,7 +126,7 @@ public class GenericMethods {
 			WebElement element = null;
 			System.out.println("Waiting for max:: "+timeout+" seconds the element to be clickable");
 			
-			WebDriverWait wait = new WebDriverWait(driver, 3);
+			WebDriverWait wait = new WebDriverWait(driver, timeout);
 			element = wait.until(ExpectedConditions.elementToBeClickable(locator));
 			element.click();
 			System.out.println("Element clicked on the web page");
